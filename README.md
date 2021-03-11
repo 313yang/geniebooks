@@ -1,2 +1,2 @@
-# GENIEBOOKS
-Library and e-book mall 🎶GenieBooks
+# 💜GENIE BOOKS
+Library and e-book mall GenieBooks
