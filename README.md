@@ -1,2 +1,2 @@
-# 💜GENIE BOOKS
-Library and e-book mall GenieBooks
+# 💜Genie's labrary
+Library and e-book mall Genie's labrary
