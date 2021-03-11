@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>You Are Awesome!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__icon">
+            <i class="fas fa-stream fa-lg"></i>
+        </div>
+        <div class="header__title">library</div>
+        <div class="header__icon">
+            <i class="fas fa-shopping-basket fa-lg"></i>
+        </div>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search books" /><i class="fas fa-search"></i>
+        
+    </div>
+
+    <main class="main-screen">
+        <h2 class="today-book__title">오늘의 책</h2>
+        <div class="today-book">
+            <div class="today-book__column">
+                <img class="img lg" src="./img/떨림과울림.jpg">
+            </div>
+            <div class="today-book__column">
+                <h4 class="today-book__book-name">떨림과 울림</h4>
+                <h6 class="today-book__author">김상욱(지은이)</h6>
+                <div class="today-book__grade">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="today-book__book-people">
+                    <div><i class="fas fa-heart"></i> 좋아요 262</div>
+                    <div><i class="far fa-edit"></i> 한줄리뷰 27</div>
+                </div>
+                <div class="today-book__btn">
+                    <button class="today-book__btn__marking"><i class="fas fa-bookmark"></i></button>
+                    <button class="today-book__btn__reading"> 바로읽기</button>
+                </div>
+            </div>
+        </div>
+        <h2 class="bestseller-novle__title">2월 베스트셀러</h2>
+            <div class="bestseller-novle">
+                <div class="bestseller-novle__content">
+                    <img class="img" src="./img/데미안.jpg"/>
+                    <h6>데미안</h6>
+                </div>
+                <div class="bestseller-novle__content">
+                    <img class="img" src="./img/그환자.jpg"/>
+                    <h6>그환자</h6>
+                </div>
+                <div class="bestseller-novle__content">
+                    <img class="img" src="./img/동물농장.jpg"/>
+                    <h6>동물농장</h6>
+                </div>
+                <div class="bestseller-novle__content">
+                    <img class="img" src="./img/인간실격.jpg"/>
+                    <h6>인간실격</h6>
+                </div>
+            </div>
+        <h2 class="weekly-author__title">위클리 작가</h2>
+        <div class="weekly-author">
+            <div class="weekly-author__column">
+                <img class="img" src="./img/다운로드.jpg">
+            </div>
+            <div class="weekly-author__column">
+                <h4 class="weekly-author__name">도스토옙스키</h4>
+                <h6 class="weekly-author__ex">일반 독자들에게는 언젠가는 읽어야 할 작가. 평론가들에게는 가장 문제적인 작가. 문인들에게는 영감을 주는 작가 제1순위로 꼽히는 작가. 이러한 수식어들에게 걸맞게 그 영향력에 있어 그 누구와도 비교할 수 없는 전무후무한 작가. 바로 표도르 도스토예스키입니다.</h6>
+            </div>
+            
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></script>
+  </body>
+</html>
