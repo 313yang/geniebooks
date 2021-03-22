@@ -1,0 +1,30 @@
+/*  Components  */
+@import "./components/header.css";
+
+/*  Screens  */
+@import "./screens/home.css";
+
+@import "reset.css";
+@import "variables.css";
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  color: var(--main-title-black);
+  font-family: "Nanum Myeongjo", serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
