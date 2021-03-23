@@ -4,8 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>📚 Genie's library</title>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -31,20 +29,19 @@
     </header>
 
     <main class="main-screen">
-      <div class="mainbanner">
-        <div>Slide 1</div>
-        <div>Slide 2</div>
-        <div>Slide 3</div>
+      <button class="sliderBtn js-leftBtn"><i class="fas fa-chevron-left"></i></button>
+      <button class="sliderBtn js-rightBtn"><i class="fas fa-chevron-right"></i></button>
+      <div class="main__slider">
+        
+        <div class="slider__item showing"><img src="./img/1.jpg" alt=""></div>
+        <div class="slider__item"><img src="./img/2.jpg" alt=""></div>
+        <div class="slider__item"><img src="./img/3.jpg" alt=""></div>
+        <div class="slider__item"><img src="./img/4.jpg" alt=""></div>
+        <div class="slider__item"><img src="./img/5.jpg" alt=""></div>
+        <div class="slider__item"><img src="./img/6.jpg" alt=""></div>
       </div>
     </main>
     <script src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.single-item').slick();
-      });
-    </script>
+    <script src="./js/mainBanner.js"></script>
   </body>
 </html>
