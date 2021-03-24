@@ -1,8 +1,8 @@
 /*  Components  */
-@import "./components/header.css";
+@import "./css/components/header.css";
 
 /*  Screens  */
-@import "./screens/home.css";
+@import "./css/screens/home.css";
 
 @import "reset.css";
 @import "variables.css";
