@@ -28,3 +28,6 @@ body {
   align-items: center;
   flex-direction: column;
 }
+img{
+  width: 16.8rem;
+}
