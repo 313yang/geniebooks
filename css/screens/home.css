@@ -4,47 +4,37 @@
   align-items: center;
   width: 100%;
 }
+.main-screen .mainBanner{
+  width: 133rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-screen .mainBanner .main__slider{
+  width: 118rem;
+  height: 42rem;
+}
 .sliderBtn {
   background-color: rgba(0, 0, 0, 0);
   color: var(--main-sub-black);
   border: none;
   cursor: pointer;
   font-size: 3rem;
-  position: absolute;
-  top: 30rem;
   z-index: 3;
 }
-.sliderBtn:first-child{
-    left: 5%;
-}
-.sliderBtn:nth-child(2){
-  right: 5%;
-}
-.main__slider{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-  top: 3rem;
-}
+
 .slider__item {
-  margin-bottom: 3rem;
-  background-color: rgb(97, 77, 77);
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 2rem;
+  margin: 3rem 0;
   position: absolute;
   top: 0;
   z-index: 0;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
 }
 .slider__item img{
   height: 35.5rem;
-  width: 100%;
+  width: 118rem;
   object-fit: cover;
 }
 .showing {

@@ -8,13 +8,14 @@
   </head>
   <body>
     <header class="header">
+      <div class="header-center">
       <div class="header-column">
         <div class="header__icon">
           <i class="fas fa-stream"></i>
         </div>
         <div class="header__title">Genie's library</div>
       </div>
-      <div class="search-bar">
+      <div class="header-column search-bar">
         <input type="text" placeholder="Search books" /><i
           class="fas fa-search"
         ></i>
@@ -26,51 +27,57 @@
           <i class="fas fa-user-circle"></i>
         </div>
       </div>
+    </div>
     </header>
 
     <main class="main-screen">
-      <button class="sliderBtn js-leftBtn"><i class="fas fa-chevron-left"></i></button>
-      <button class="sliderBtn js-rightBtn"><i class="fas fa-chevron-right"></i></button>
-      <div class="main__slider">
-        <div class="slider__item showing"><img src="./img/1.jpg" alt=""></div>
-        <div class="slider__item"><img src="./img/2.jpg" alt=""></div>
-        <div class="slider__item"><img src="./img/3.jpg" alt=""></div>
-        <div class="slider__item"><img src="./img/4.jpg" alt=""></div>
-        <div class="slider__item"><img src="./img/5.jpg" alt=""></div>
-        <div class="slider__item"><img src="./img/6.jpg" alt=""></div>
-      </div>
-      <div class="main-title">
-        <div class="title__column">
-          <h2 class="title">오늘의 책</h2> 
+      <section class="mainBanner">
+        <button class="sliderBtn js-leftBtn"><i class="fas fa-chevron-left"></i></button>
+        <div class="main__slider">
+          <div class="slider__item showing"><img src="./img/1.jpg" alt=""></div>
+          <div class="slider__item"><img src="./img/2.jpg" alt=""></div>
+          <div class="slider__item"><img src="./img/3.jpg" alt=""></div>
+          <div class="slider__item"><img src="./img/4.jpg" alt=""></div>
+          <div class="slider__item"><img src="./img/5.jpg" alt=""></div>
+          <div class="slider__item"><img src="./img/6.jpg" alt=""></div>
         </div>
-        <div class="title__column">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
-      <div class="today">
-        <div class="today__column">
-          <img src="./img/todaysbook.jpg" alt="">
-          <div>
-            <span class="book-name">비전공자를 위한 이해할 수 있는 IT지식</span>
-            <span class="aucthor">최원영 (지은이)</span>
+        <button class="sliderBtn js-rightBtn"><i class="fas fa-chevron-right"></i></button>
+      </section>
+      <section>
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">오늘의 책</h2> 
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
           </div>
         </div>
-        <div class="today__columns">
+        <div class="today">
           <div class="today__column">
-            <span>오누누ㅜ누눈</span>
-            <span>최원영 지은이</span>
-            <span>최원영 지은이</span>
-          </div>
-          <div class="today__column">
-            <img class="avatar" src="" alt="">
+            <img src="./img/todaysbook.jpg" alt="">
             <div>
-              <span class="user">333님의 추천평</span>
-              <span class="user-name">추천이름ㄴㄴㄴ</span>
+              <h4 class="book-name">비전공자를 위한 이해할 수 있는 IT지식</h4>
+              <h6 class="aucthor">최원영 (지은이)</h6>
             </div>
-            <span class="coment">이 책을 읽고나ㅣㄴㄴㄴ</span>
+          </div>
+          <div class="today__columns">
+            <div class="today__column">
+              <span><i class="far fa-check-square"></i> 오늘은 월드 와이드 웹(www) 탄생 32주년 <i class="fas fa-angle-right"></i></span>
+              <span><i class="far fa-check-square"></i> 누구나 쉽게 배울 수 있는 IT 기초지식 <i class="fas fa-angle-right"></i></span>
+              <span><i class="far fa-check-square"></i> 완독할 확률 35% | 완독 예상시간 2시간27분 <i class="fas fa-angle-right"></i></span>
+            </div>
+            <div class="today__column">
+              <img class="avatar" src="" alt="">
+              <div>
+                <span class="user">333님의 추천평</span>
+                <span class="user-name">아직은 몽상가</span>
+              </div>
+              <span class="coment">매일 누르는 'www' 세 글자 안에 어떤 비밀이 숨어 있을까요? 어렵지만 꼭 알아야 하는 IT 지식! 비전공자도 충분히 이해할 수 있어요.</span>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+    <section>
       <div class="main-title">
         <div class="title__column">
           <h2 class="title">새로나온 신간</h2> 
@@ -116,6 +123,8 @@
           <span class="aucthor">김석현 (지은이)</span>
         </div>
       </div>
+    </section>
+    <section>
       <div class="main-title">
         <div class="title__column">
           <h2 class="title">베스트셀러</h2> 
@@ -160,32 +169,37 @@
           <span class="book-name">빌 게이츠, 기후재앙을 피하는 법</span>
           <span class="aucthor">빌 게이츠 (지은이), 김민주·이엽 (옮긴이)</span>
         </div>
-      <div class="main-title">
-        <div class="title__column">
-          <h2 class="title">이번 주 취향별 추천책</h2> 
+      </section>
+      <section>
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">이번 주 취향별 추천책</h2> 
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
-        <div class="title__column">
-          <i class="fas fa-chevron-right"></i>
+      </section>
+      <section>
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">오늘의 명언</h2> 
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
-      </div>
-
-      <div class="main-title">
-        <div class="title__column">
-          <h2 class="title">오늘의 명언</h2> 
+      </section>
+      <section>
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">제2의 삶을 시작하기 위한 공부법</h2> 
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
-        <div class="title__column">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
-
-      <div class="main-title">
-        <div class="title__column">
-          <h2 class="title">제2의 삶을 시작하기 위한 공부법</h2> 
-        </div>
-        <div class="title__column">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
+      </section>
     </main>
     <script src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></script>
     <script src="./js/mainBanner.js"></script>
