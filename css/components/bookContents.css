@@ -1,0 +1,47 @@
+.book-list {
+    display: flex;
+    justify-content: space-between;
+    width: 133rem;
+    overflow-x: scroll;
+    margin-top: 2rem;
+}
+.book-list__contents{
+    width:16.8rem; 
+    margin-right: 2rem;
+}
+.book-list__contents:last-child{
+    margin-right: 0;
+}
+.book-name,
+.aucthor {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+}
+.book-list .book-list__contents .book-name {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+.book-list .book-list__contents .aucthor{
+    font-size: 1.2rem;
+    color: var(--main-sub-black);
+    margin-bottom: 1rem;
+
+}
+
+.book-list::-webkit-scrollbar {
+    width: .5rem; /*스크롤바의 너비*/
+    background: none;
+}
+
+.book-list::-webkit-scrollbar-thumb {
+    background-color: #bebebe7a; /*스크롤바의 색상*/
+    background-clip: padding-box;
+    border: .6rem solid transparent;
+    border-radius: 1rem;
+}
+
+.book-list::-webkit-scrollbar-track {
+    background-color: none; /*스크롤바 트랙 색상*/
+}

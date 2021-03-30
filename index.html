@@ -9,44 +9,50 @@
   <body>
     <header class="header">
       <div class="header-center">
-      <div class="header-column">
-        <div class="header__icon">
-          <i class="fas fa-stream"></i>
+        <div class="header-column">
+          <div class="header__icon">
+            <i class="fas fa-stream"></i>
+          </div>
+          <div class="header__title">Genie's library</div>
         </div>
-        <div class="header__title">Genie's library</div>
-      </div>
-      <div class="header-column search-bar">
-        <input type="text" placeholder="Search books" /><i
-          class="fas fa-search"
-        ></i>
-      </div>
-      <div class="header-column signInUp">
-        <input type="button" value="회원가입" />
-        <input type="button" value="로그인" />
-        <div class="header__icon user">
-          <i class="fas fa-user-circle"></i>
+        <div class="header-column search-bar">
+          <input type="text" placeholder="Search books" /><i
+            class="fas fa-search"
+          ></i>
+        </div>
+        <div class="header-column signInUp">
+          <input type="button" value="회원가입" />
+          <input type="button" value="로그인" />
+          <div class="header__icon user">
+            <i class="fas fa-user-circle"></i>
+          </div>
         </div>
       </div>
-    </div>
     </header>
 
     <main class="main-screen">
       <section class="mainBanner">
-        <button class="sliderBtn js-leftBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="sliderBtn js-leftBtn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
         <div class="main__slider">
-          <div class="slider__item showing"><img src="./img/1.jpg" alt=""></div>
-          <div class="slider__item"><img src="./img/2.jpg" alt=""></div>
-          <div class="slider__item"><img src="./img/3.jpg" alt=""></div>
-          <div class="slider__item"><img src="./img/4.jpg" alt=""></div>
-          <div class="slider__item"><img src="./img/5.jpg" alt=""></div>
-          <div class="slider__item"><img src="./img/6.jpg" alt=""></div>
+          <div class="slider__item showing">
+            <img src="./img/1.jpg" />
+          </div>
+          <div class="slider__item"><img src="./img/2.jpg" /></div>
+          <div class="slider__item"><img src="./img/3.jpg" /></div>
+          <div class="slider__item"><img src="./img/4.jpg" /></div>
+          <div class="slider__item"><img src="./img/5.jpg" /></div>
+          <div class="slider__item"><img src="./img/6.jpg" /></div>
         </div>
-        <button class="sliderBtn js-rightBtn"><i class="fas fa-chevron-right"></i></button>
+        <button class="sliderBtn js-rightBtn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
       </section>
-      <section>
+      <section class="today">
         <div class="main-title">
           <div class="title__column">
-            <h2 class="title">오늘의 책</h2> 
+            <h2 class="title">오늘의 책</h2>
           </div>
           <div class="title__column">
             <i class="fas fa-chevron-right"></i>
@@ -54,7 +60,7 @@
         </div>
         <div class="today">
           <div class="today__column">
-            <img src="./img/todaysbook.jpg" alt="">
+            <img src="./img/todaysbook.jpg" />
             <div>
               <h4 class="book-name">비전공자를 위한 이해할 수 있는 IT지식</h4>
               <h6 class="aucthor">최원영 (지은이)</h6>
@@ -62,146 +68,405 @@
           </div>
           <div class="today__columns">
             <div class="today__column">
-              <span><i class="far fa-check-square"></i> 오늘은 월드 와이드 웹(www) 탄생 32주년 <i class="fas fa-angle-right"></i></span>
-              <span><i class="far fa-check-square"></i> 누구나 쉽게 배울 수 있는 IT 기초지식 <i class="fas fa-angle-right"></i></span>
-              <span><i class="far fa-check-square"></i> 완독할 확률 35% | 완독 예상시간 2시간27분 <i class="fas fa-angle-right"></i></span>
+              <span
+                ><i class="far fa-check-square"></i> 오늘은 월드 와이드 웹(www)
+                탄생 32주년 <i class="fas fa-angle-right"></i
+              ></span>
+              <span
+                ><i class="far fa-check-square"></i> 누구나 쉽게 배울 수 있는 IT
+                기초지식 <i class="fas fa-angle-right"></i
+              ></span>
+              <span
+                ><i class="far fa-check-square"></i> 완독할 확률 35% | 완독
+                예상시간 2시간27분 <i class="fas fa-angle-right"></i
+              ></span>
             </div>
             <div class="today__column">
-              <img class="avatar" src="" alt="">
+              <img class="avatar" src="./img/avatar.jpg" alt="avatar" />
               <div>
-                <span class="user">333님의 추천평</span>
-                <span class="user-name">아직은 몽상가</span>
+                <h4 class="user">313님의 추천평</h4>
+                <h6 class="user-name">나는야 몽상가</h6>
               </div>
-              <span class="coment">매일 누르는 'www' 세 글자 안에 어떤 비밀이 숨어 있을까요? 어렵지만 꼭 알아야 하는 IT 지식! 비전공자도 충분히 이해할 수 있어요.</span>
+              <p class="coment">
+                매일 누르는 'www' 세 글자 안에 어떤 비밀이 숨어 있을까요?
+                어렵지만 꼭 알아야 하는 IT 지식! 비전공자도 충분히 이해할 수
+                있어요.
+              </p>
             </div>
           </div>
         </div>
       </section>
-    <section>
-      <div class="main-title">
-        <div class="title__column">
-          <h2 class="title">새로나온 신간</h2> 
-        </div>
-        <div class="title__column">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
-      <div class="book-list">
-        <div class="book-list__contents">
-          <div><img src="./img/new01.jpg" alt=""></div>
-          <span class="book-name">책의 말들</span>
-          <span class="aucthor">김겨울 (지은이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/new02.jpg" alt=""></div>
-          <span class="book-name">돈의 탄생 돈의 현재 돈의 미래</span>
-          <span class="aucthor">제이컵 골드스타인 (지은이), 장진영 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/new03.jpg" alt=""></div>
-          <span class="book-name">그녀는 다 계획이 있다</span>
-          <span class="aucthor">히가시노 게이고 (지은이), 양윤옥 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/new04.jpg" alt=""></div>
-          <span class="book-name">온도의 임무</span>
-          <span class="aucthor">할 클레멘트 (지은이), 최세진 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/new05.jpg" alt=""></div>
-          <span class="book-name">중력의 임무</span>
-          <span class="aucthor">할 클레멘트 (지은이), 안정희 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/new06.jpg" alt=""></div>
-          <span class="book-name">기록하기로 했습니다</span>
-          <span class="aucthor">김신지 (지은이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/new07.jpg" alt=""></div>
-          <span class="book-name">마케터의 투자법</span>
-          <span class="aucthor">김석현 (지은이)</span>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="main-title">
-        <div class="title__column">
-          <h2 class="title">베스트셀러</h2> 
-        </div>
-        <div class="title__column">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
-      <div class="book-list">
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller01.jpg" alt=""></div>
-          <span class="book-name">돈의 심리학</span>
-          <span class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller02.jpg" alt=""></div>
-          <span class="book-name">디 앤서</span>
-          <span class="aucthor">뉴욕주민 (지은이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller03.jpg" alt=""></div>
-          <span class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</span>
-          <span class="aucthor">염승환 (지은이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller04.jpg" alt=""></div>
-          <span class="book-name">마지막 몰입:나를 넘어서는 힘</span>
-          <span class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller05.jpg" alt=""></div>
-          <span class="book-name">휴먼카인드</span>
-          <span class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller06.jpg" alt=""></div>
-          <span class="book-name">발명과 방황</span>
-          <span class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</span>
-        </div>
-        <div class="book-list__contents">
-          <div><img src="./img/bestseller07.jpg" alt=""></div>
-          <span class="book-name">빌 게이츠, 기후재앙을 피하는 법</span>
-          <span class="aucthor">빌 게이츠 (지은이), 김민주·이엽 (옮긴이)</span>
-        </div>
-      </section>
-      <section>
+      <section class="new">
         <div class="main-title">
           <div class="title__column">
-            <h2 class="title">이번 주 취향별 추천책</h2> 
+            <h2 class="title">새로나온 신간</h2>
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="book-list">
+          <div class="book-list__contents">
+            <img src="./img/new01.jpg" alt="new01" />
+            <h4 class="book-name">책의 말들</h4>
+            <h6 class="aucthor">김겨울 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new02.jpg" alt="new02" />
+            <h4 class="book-name">돈의 탄생 돈의 현재 돈의 미래</h4>
+            <h6 class="aucthor">제이컵 골드스타인 (지은이), 장진영 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new03.jpg" alt="new03" />
+            <h4 class="book-name">그녀는 다 계획이 있다</h4>
+            <h6 class="aucthor">히가시노 게이고 (지은이), 양윤옥 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new04.jpg" alt="new04" />
+            <h4 class="book-name">온도의 임무</h4>
+            <h6 class="aucthor">할 클레멘트 (지은이), 최세진 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new05.jpg" alt="new05" />
+            <h4 class="book-name">중력의 임무</h4>
+            <h6 class="aucthor">할 클레멘트 (지은이), 안정희 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new06.jpg" alt="new06" />
+            <h4 class="book-name">기록하기로 했습니다</h4>
+            <h6 class="aucthor">김신지 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new07.jpg" alt="new07" />
+            <h4 class="book-name">마케터의 투자법</h4>
+            <h6 class="aucthor">김석현 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new08.jpg" alt="new08" />
+            <h4 class="book-name">어제가 내일이었으면 좋겠다</h4>
+            <h6 class="aucthor">문현기 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new09.jpg" alt="new09" />
+            <h4 class="book-name">브랜드 네이밍</h4>
+            <h6 class="aucthor">김상률, 정이찬 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/new07.jpg" alt="new10" />
+            <h4 class="book-name">마케터의 투자법</h4>
+            <h6 class="aucthor">김석현 (지은이)</h6>
+          </div>
+        </div>
+      </section>
+      <section class="bestseller">
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">베스트셀러</h2>
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="book-list">
+          <div class="book-list__contents">
+            <img src="./img/bestseller01.jpg" alt="bestseller01" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller02.jpg" alt="bestseller02" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller03.jpg" alt="bestseller03" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller04.jpg" alt="bestseller04" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller05.jpg" alt="bestseller05" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller06.jpg" alt="bestseller06" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller07.jpg" alt="bestseller07" />
+            <h4 class="book-name">빌 게이츠, 기후재앙을 피하는 법</h4>
+            <h6 class="aucthor">빌 게이츠 (지은이), 김민주·이엽 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller08.jpg" alt="bestseller08" />
+            <h4 class="book-name">빌 게이츠, 기후재앙을 피하는 법</h4>
+            <h6 class="aucthor">빌 게이츠 (지은이), 김민주·이엽 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller09.jpg" alt="bestseller09" />
+            <h4 class="book-name">빌 게이츠, 기후재앙을 피하는 법</h4>
+            <h6 class="aucthor">빌 게이츠 (지은이), 김민주·이엽 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/bestseller07.jpg" alt="bestseller10" />
+            <h4 class="book-name">빌 게이츠, 기후재앙을 피하는 법</h4>
+            <h6 class="aucthor">빌 게이츠 (지은이), 김민주·이엽 (옮긴이)</h6>
+          </div>
+        </div>
+      </section>
+      <section class="weekly">
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">이번 주 취향별 추천책</h2>
+          </div>
+          <div class="title__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="js-genresBtn">
+          <button>트렌드</button>
+          <button>힐링</button>
+          <button>라이프</button>
+          <button>지적교양</button>
+          <button>소설</button>
+        </div>
+        <div class="book-list js-weekly trend weekly-showing">
+          <div class="book-list__contents">
+            <img src="./img/weekly/trend01.jpg" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/trend02.jpg" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/trend03.jpg" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/trend04.jpg" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/trend05.jpg" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/trend06.jpg" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
+          </div>
+        </div>
+        <div class="book-list js-weekly healing">
+          <div class="book-list__contents">
+            <img src="./img/weekly/healing01.jpg" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/healing02.jpg" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/healing03.jpg" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/healing04.jpg" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/healing05.jpg" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/healing06.jpg" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
+          </div>
+        </div>
+        <div class="book-list js-weekly life">
+          <div class="book-list__contents">
+            <img src="./img/weekly/life01.jpg" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/life02.jpg" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/life03.jpg" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/life04.jpg" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/life05.jpg" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/life06.jpg" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
+          </div>
+        </div>
+        <div class="book-list js-weekly culture">
+          <div class="book-list__contents">
+            <img src="./img/weekly/culture01.jpg" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/culture02.jpg" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/culture03.jpg" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/culture04.jpg" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/culture05.jpg" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/culture06.jpg" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+        </div>
+        <div class="book-list js-weekly novel">
+          <div class="book-list__contents">
+            <img src="./img/weekly/novel01.jpg" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/novel02.jpg" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/novel03.jpg" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/novel04.jpg" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/novel05.jpg" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/weekly/novel06.jpg" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
+          </div>
+        </div>
+      </section>
+      <section class="saying">
+        <div class="main-title">
+          <div class="title__column">
+            <h2 class="title">오늘의 명언</h2>
           </div>
           <div class="title__column">
             <i class="fas fa-chevron-right"></i>
           </div>
         </div>
       </section>
-      <section>
+      <section class="topic">
         <div class="main-title">
           <div class="title__column">
-            <h2 class="title">오늘의 명언</h2> 
+            <h2 class="title">제2의 삶을 시작하기 위한 공부법</h2>
           </div>
           <div class="title__column">
             <i class="fas fa-chevron-right"></i>
           </div>
         </div>
-      </section>
-      <section>
-        <div class="main-title">
-          <div class="title__column">
-            <h2 class="title">제2의 삶을 시작하기 위한 공부법</h2> 
+        <div class="book-list">
+          <div class="book-list__contents">
+            <img src="./img/list01.jpg" />
+            <h4 class="book-name">돈의 심리학</h4>
+            <h6 class="aucthor">모건 하우절 (지은이), 이지연 (옮긴이)</h6>
           </div>
-          <div class="title__column">
-            <i class="fas fa-chevron-right"></i>
+          <div class="book-list__contents">
+            <img src="./img/list02.jpg" />
+            <h4 class="book-name">디 앤서</h4>
+            <h6 class="aucthor">뉴욕주민 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/list03.jpg" />
+            <h4 class="book-name">주린이가 가장 알고 싶은 최다질문 TOP 77</h4>
+            <h6 class="aucthor">염승환 (지은이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/list04.jpg" />
+            <h4 class="book-name">마지막 몰입:나를 넘어서는 힘</h4>
+            <h6 class="aucthor">짐 퀵 (지은이), 김미정 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/list05.jpg" />
+            <h4 class="book-name">휴먼카인드</h4>
+            <h6 class="aucthor">뤼트허르 브레흐만 (지은이), 조현욱 (옮긴이)</h6>
+          </div>
+          <div class="book-list__contents">
+            <img src="./img/list06.jpg" />
+            <h4 class="book-name">발명과 방황</h4>
+            <h6 class="aucthor">제프 베조스 (지은이), 이영래 (옮긴이)</h6>
           </div>
         </div>
       </section>
     </main>
-    <script src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></script>
+    <footer>
+      <div class="footer-column">
+        <h5>Genie's library</h5>
+        <span>고객센터 <i class="fas fa-angle-right"></i></span>
+        <span>공지사항 <i class="fas fa-angle-right"></i></span>
+        <span>개인정보처리방침 <i class="fas fa-angle-right"></i></span>
+        <span>저작권/도서오류 신고 <i class="fas fa-angle-right"></i></span>
+        <h6>Copyright ⓒ 2021 Genie’s library All Rights Reserved</h6>
+      </div>
+      <div class="footer-column">
+        <!-- add sns img-->
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/2a7d6ecfa5.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/mainBanner.js"></script>
   </body>
 </html>

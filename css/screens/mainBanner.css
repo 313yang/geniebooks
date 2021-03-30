@@ -42,3 +42,8 @@
   opacity: 1;
 
 }
+.today__column .avatar{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}

@@ -1,4 +1,6 @@
 .header {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
   padding: 2rem 10rem;
   background-color: slateblue;
 }
