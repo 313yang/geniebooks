@@ -30,7 +30,7 @@
   .header__icon {
     font-size: 2.6rem;
   }
-  .user {
+  .header-column .user {
     margin-left: 2rem;
   }
   .header__icon:hover {

@@ -1,7 +1,7 @@
 .book-list {
     display: flex;
     justify-content: space-between;
-    width: 133rem;
+    width: 128rem;
     overflow-x: scroll;
     margin-top: 2rem;
 }
@@ -12,18 +12,19 @@
 .book-list__contents:last-child{
     margin-right: 0;
 }
-.book-name,
-.aucthor {
+.book-list .book-list__contents .book-name,
+.book-list .book-list__contents .aucthor {
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis; 
 }
-.book-list .book-list__contents .book-name {
+.book-name {
     font-size: 1.6rem;
+    font-weight: 700;
     margin-top: 2rem;
     margin-bottom: .5rem;
 }
-.book-list .book-list__contents .aucthor{
+.aucthor{
     font-size: 1.2rem;
     color: var(--main-sub-black);
     margin-bottom: 1rem;

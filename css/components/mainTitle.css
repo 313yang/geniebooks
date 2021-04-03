@@ -1,0 +1,20 @@
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid slateblue;
+    margin-top: 4.4rem;
+    margin-bottom: 2.3rem;
+}
+.main-title .title__column{
+    margin-bottom: 1.5rem;
+}
+.main-title .title__column .title {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+.main-title .title__column i {
+    font-size: 1.6rem;
+    color: var(--main-sub-black);
+}

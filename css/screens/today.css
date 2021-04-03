@@ -1,0 +1,74 @@
+.today-box {
+    display: flex;
+    justify-content: space-between;
+}
+.today__column{
+    border: 1px solid #e1e1e1;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.today__column:first-child{
+    display: flex;
+    align-items: flex-end;
+    width: 45rem;
+}
+.today__columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.today__columns .today__column{
+    display: block;
+    align-items: flex-start;
+    width: 80rem;
+}
+
+.today__column img {
+    margin-right: 2rem;
+}
+.today__column p {
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.today__column p:last-child{
+    margin-bottom: 0;
+}
+.today__column i {
+    margin: 0 0.5rem;
+}
+.today__column i,
+.today__column .coment,
+.today__column p{
+    color: var(--main-sub-black);
+}
+.today__column .fa-check-square{
+    margin-left: 0;
+}
+.today__column .coment{
+    font-family: "Nanum Myeongjo", serif;
+}
+.today__column .user{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.user .avatar,
+.user-info{
+    height: 5rem;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.user .avatar{
+    margin-right: 1rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.user-coment{
+    margin-top: 0;
+}
+.user-name{
+    margin-bottom: 0;
+}

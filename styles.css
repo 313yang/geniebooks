@@ -1,9 +1,11 @@
 /*  Components  */
 @import "./css/components/header.css";
 @import "./css/components/bookContents.css";
+@import "./css/components/mainTitle.css";
 
 /*  Screens  */
 @import "./css/screens/mainBanner.css";
+@import "./css/screens/today.css";
 @import "./css/screens/weekly.css";
 
 @import "reset.css";
@@ -30,4 +32,10 @@ img{
   width: 16.8rem;
   height: 24rem;
   object-fit: cover;
+  box-shadow: var(--box-shadow);
+  border: 1px solid #4646461c;
+}
+section{
+  width: 128rem;
+  height: 42rem;
 }
