@@ -2,11 +2,13 @@
 @import "./css/components/header.css";
 @import "./css/components/bookContents.css";
 @import "./css/components/mainTitle.css";
+@import "./css/components/footer.css";
 
 /*  Screens  */
 @import "./css/screens/mainBanner.css";
 @import "./css/screens/today.css";
 @import "./css/screens/weekly.css";
+@import "./css/screens/saying.css";
 
 @import "reset.css";
 @import "variables.css";
@@ -24,18 +26,33 @@ body {
   height: 100%;
   font-size: 62.5%;
   color: var(--main-title-black);
-  
   font-family: 'Nanum Gothic', sans-serif;
 }
 
 img{
-  width: 16.8rem;
+  width:16.8rem; 
   height: 24rem;
-  object-fit: cover;
+  object-fit: fill;
   box-shadow: var(--box-shadow);
   border: 1px solid #4646461c;
 }
 section{
-  width: 128rem;
-  height: 42rem;
+  width: 95%;
+  max-width: 128rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mainBanner{
+  width: 100%;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+ .today__column img{
+    height: 18rem;
+  }
+  .today__column:first-child{
+    display: block;
+    align-items: flex-end;
+  }
 }
