@@ -58,43 +58,45 @@
             <i class="fas fa-chevron-right"></i>
           </div>
         </div>
-          <div class="today-box">
-            <div class="today__column">
-              <img src="./img/todaysbook.jpg" />
-              <div>
-                <h4 class="book-name">비전공자를 위한 이해할 수 있는 IT지식</h4>
-                <h6 class="aucthor">최원영 (지은이)</h6>
-              </div>
-            </div>
-            <div class="today__columns">
-              <div class="today__column">
-                <p>
-                  <i class="far fa-check-square"></i> 오늘은 월드 와이드 웹(www)
-                  탄생 32주년 <i class="fas fa-angle-right"></i>
-                </p>
-                <p>
-                  <i class="far fa-check-square"></i> 누구나 쉽게 배울 수 있는 IT 기초지식 <i class="fas fa-angle-right"></i>
-                </p>
-                <p>
-                  <i class="far fa-check-square"></i> 완독할 확률 35% | 완독 예상시간 2시간27분 <i class="fas fa-angle-right"></i>
-                </p>
-              </div>
-              <div class="today__column">
-                <div class="user">
-                  <img class="avatar" src="./img/avatar.jpg" alt="avatar" />
-                  <div class="user-info">
-                    <h4 class="user-coment book-name">313님의 추천평</h4>
-                    <h6 class="user-name aucthor">나는야 몽상가</h6>
-                  </div>
-                </div>
-                <p class="coment">
-                  매일 누르는 'www' 세 글자 안에 어떤 비밀이 숨어 있을까요?
-                  어렵지만 꼭 알아야 하는 IT 지식! 비전공자도 충분히 이해할 수
-                  있어요.
-                </p>
-              </div>
+        <div class="today-box">
+          <div class="today__column">
+            <img src="./img/todaysbook.jpg" />
+            <div>
+              <h4 class="book-name">비전공자를 위한 이해할 수 있는 IT지식</h4>
+              <h6 class="aucthor">최원영 (지은이)</h6>
             </div>
           </div>
+          <div class="today__columns">
+            <div class="today__column">
+              <p>
+                <i class="far fa-check-square"></i> 오늘은 월드 와이드 웹(www)
+                탄생 32주년 <i class="fas fa-angle-right"></i>
+              </p>
+              <p>
+                <i class="far fa-check-square"></i> 누구나 쉽게 배울 수 있는 IT
+                기초지식 <i class="fas fa-angle-right"></i>
+              </p>
+              <p>
+                <i class="far fa-check-square"></i> 완독할 확률 35% | 완독
+                예상시간 2시간27분 <i class="fas fa-angle-right"></i>
+              </p>
+            </div>
+            <div class="today__column">
+              <div class="user">
+                <img class="avatar" src="./img/avatar.jpg" alt="avatar" />
+                <div class="user-info">
+                  <h4 class="user-coment book-name">313님의 추천평</h4>
+                  <h6 class="user-name aucthor">나는야 몽상가</h6>
+                </div>
+              </div>
+              <p class="coment">
+                매일 누르는 'www' 세 글자 안에 어떤 비밀이 숨어 있을까요?
+                어렵지만 꼭 알아야 하는 IT 지식! 비전공자도 충분히 이해할 수
+                있어요.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="new">
         <div class="main-title">
@@ -201,7 +203,9 @@
           <div class="book-list__contents">
             <img src="./img/bestseller08.jpg" alt="bestseller08" />
             <h4 class="book-name">IT 좀 아는 사람</h4>
-            <h6 class="aucthor">닐 메타·아디티야 아가쉐·파스 디트로자 (지은이), 김고명 (옮긴이)</h6>
+            <h6 class="aucthor">
+              닐 메타·아디티야 아가쉐·파스 디트로자 (지은이), 김고명 (옮긴이)
+            </h6>
           </div>
           <div class="book-list__contents">
             <img src="./img/bestseller09.jpg" alt="bestseller09" />
@@ -219,14 +223,14 @@
             <i class="fas fa-chevron-right"></i>
           </div>
         </div>
-        <div class="js-genresBtn">
-          <input type="button" value="트렌드"></input>
-          <input type="button" value="힐링"></input>
-          <input type="button" value="라이프"></input>
-          <input type="button" value="지적교양"></input>
-          <input type="button" value="소설"></input>
+        <div class="js-genresBtn genres-btn">
+          <button class="weeklyBtn changeBtn" data-tab="trend">트렌드</button>
+          <button class="weeklyBtn" data-tab="healing">힐링</button>
+          <button class="weeklyBtn" data-tab="life">라이프</button>
+          <button class="weeklyBtn" data-tab="culture">지적교양</button>
+          <button class="weeklyBtn" data-tab="novel">소설</button>
         </div>
-        <div class="book-list js-weekly trend weekly-showing">
+        <div id="trend" class="book-list js-weekly weekly-showing">
           <div class="book-list__contents">
             <img src="./img/weekly/trend01.jpg" />
             <h4 class="book-name">미국주식으로 은퇴하기</h4>
@@ -235,7 +239,9 @@
           <div class="book-list__contents">
             <img src="./img/weekly/trend02.jpg" />
             <h4 class="book-name">IT 좀 아는 사람</h4>
-            <h6 class="aucthor">닐 메타·아디티야 아가쉐·파스 디트로자 (지은이), 김고명 (옮긴이)</h6>
+            <h6 class="aucthor">
+              닐 메타·아디티야 아가쉐·파스 디트로자 (지은이), 김고명 (옮긴이)
+            </h6>
           </div>
           <div class="book-list__contents">
             <img src="./img/weekly/trend03.jpg" />
@@ -258,7 +264,7 @@
             <h6 class="aucthor">배종찬 (지은이)</h6>
           </div>
         </div>
-        <div class="book-list js-weekly healing">
+        <div id="healing" class="book-list js-weekly">
           <div class="book-list__contents">
             <img src="./img/weekly/healing01.jpg" />
             <h4 class="book-name">완벽하게 사랑하는 너에게</h4>
@@ -290,7 +296,7 @@
             <h6 class="aucthor">하수연 (지은이)</h6>
           </div>
         </div>
-        <div class="book-list js-weekly life">
+        <div id="life" class="book-list js-weekly">
           <div class="book-list__contents">
             <img src="./img/weekly/life01.jpg" />
             <h4 class="book-name">멘탈의 연금술</h4>
@@ -322,7 +328,7 @@
             <h6 class="aucthor">김청연 (지은이)</h6>
           </div>
         </div>
-        <div class="book-list js-weekly culture">
+        <div id="culture" class="book-list js-weekly">
           <div class="book-list__contents">
             <img src="./img/weekly/culture01.jpg" />
             <h4 class="book-name">7개 코드로 읽는 유럽도시</h4>
@@ -354,11 +360,13 @@
             <h6 class="aucthor">대니얼 스탤더 (지은이), 정지인 (옮긴이)</h6>
           </div>
         </div>
-        <div class="book-list js-weekly novel">
+        <div id="novel" class="book-list js-weekly">
           <div class="book-list__contents">
             <img src="./img/weekly/novel01.jpg" />
             <h4 class="book-name">머스코카 별장의 시체상자</h4>
-            <h6 class="aucthor">데러버 버더시 레비슨 (지은이), 김희주 (옮긴이)</h6>
+            <h6 class="aucthor">
+              데러버 버더시 레비슨 (지은이), 김희주 (옮긴이)
+            </h6>
           </div>
           <div class="book-list__contents">
             <img src="./img/weekly/novel02.jpg" />
@@ -388,7 +396,6 @@
         </div>
       </section>
       <section class="saying">
-        
         <div class="main-title">
           <div class="title__column">
             <h2 class="title">오늘의 명언</h2>
@@ -400,7 +407,13 @@
         <div class="saying-content">
           <h5>오늘 하루는 당황하지 않기!</h5>
           <div class="saying-box">
-            <p>" 잊지마.<br> 야생에서의 <br> 첫 번째 규칙은 <br> '절대 당황하지 말라'<br> 라는 걸. "</p>
+            <p>
+              " 잊지마.<br />
+              야생에서의 <br />
+              첫 번째 규칙은 <br />
+              '절대 당황하지 말라'<br />
+              라는 걸. "
+            </p>
           </div>
           <h6>메리 파이퍼, <나는 내 나이가 참 좋다></h6>
         </div>
@@ -411,7 +424,7 @@
             <h2 class="title">제2의 삶을 시작하기 위한 공부법</h2>
           </div>
           <div class="title__column">
-            <i class="fas fa-chevron-right "></i>
+            <i class="fas fa-chevron-right"></i>
           </div>
         </div>
         <div class="book-list">
@@ -423,7 +436,9 @@
           <div class="book-list__contents">
             <img src="./img/list02.jpg" />
             <h4 class="book-name">쓱 읽고 씩 웃으면 싹 풀리는 인생공부</h4>
-            <h6 class="aucthor">존 자브나·고든 자브나 (지은이), 정유선 (옮긴이)</h6>
+            <h6 class="aucthor">
+              존 자브나·고든 자브나 (지은이), 정유선 (옮긴이)
+            </h6>
           </div>
           <div class="book-list__contents">
             <img src="./img/list03.jpg" />
@@ -437,8 +452,12 @@
           </div>
           <div class="book-list__contents">
             <img src="./img/list05.jpg" />
-            <h4 class="book-name">인생의 재발견 : 마흔 이후, 어떻게 살 것인가</h4>
-            <h6 class="aucthor">바버라 브래들리 헤거티 (지은이), 박상은 (옮긴이)</h6>
+            <h4 class="book-name">
+              인생의 재발견 : 마흔 이후, 어떻게 살 것인가
+            </h4>
+            <h6 class="aucthor">
+              바버라 브래들리 헤거티 (지은이), 박상은 (옮긴이)
+            </h6>
           </div>
           <div class="book-list__contents">
             <img src="./img/list06.jpg" />
@@ -451,25 +470,25 @@
     <footer>
       <div class="footer-line"></div>
       <div class="footer-columns">
-      <div class="footer-column">
-        <h5>Genie's library</h5>
-        <span>고객센터 <i class="fas fa-angle-right"></i></span>
-        <span>공지사항 <i class="fas fa-angle-right"></i></span>
-        <span>개인정보처리방침 <i class="fas fa-angle-right"></i></span>
-        <span>저작권/도서오류 신고 <i class="fas fa-angle-right"></i></span>
-        <h6>Copyright ⓒ 2021 Genie’s library All Rights Reserved</h6>
-      </div>
-      <div class="footer-column">
-        <div class="footer-icon">
-          <i class="fab fa-youtube"></i>
+        <div class="footer-column">
+          <h5>Genie's library</h5>
+          <span>고객센터 <i class="fas fa-angle-right"></i></span>
+          <span>공지사항 <i class="fas fa-angle-right"></i></span>
+          <span>개인정보처리방침 <i class="fas fa-angle-right"></i></span>
+          <span>저작권/도서오류 신고 <i class="fas fa-angle-right"></i></span>
+          <h6>Copyright ⓒ 2021 Genie’s library All Rights Reserved</h6>
         </div>
-        <div class="footer-icon">
-          <i class="fab fa-facebook-f"></i>
+        <div class="footer-column">
+          <div class="footer-icon">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class="footer-icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="footer-icon">
+            <i class="fab fa-google"></i>
+          </div>
         </div>
-        <div class="footer-icon">
-          <i class="fab fa-google"></i>
-        </div>
-      </div>
       </div>
     </footer>
     <script
@@ -477,5 +496,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/mainBanner.js"></script>
+    <script src="./js/menuTab.js"></script>
   </body>
 </html>

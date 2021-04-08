@@ -1,6 +1,23 @@
+.weeklyBtn{
+    font-size: 1.4rem;
+    min-width: 6rem;
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 2rem;
+    padding: .8rem 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
 .js-weekly{
     display: none;
 }
 .weekly-showing{
     display: flex;
+}
+.changeBtn{
+    color: white;
+    background-color: #333333;
 }

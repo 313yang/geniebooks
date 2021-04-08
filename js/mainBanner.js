@@ -5,6 +5,7 @@ const rightBtn = document.querySelector(".js-rightBtn");
 
 const SHOWING_CLASS = "showing";
 
+//right btn click
 const slide =() =>{
   const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
   if(currentSlide){
@@ -17,7 +18,7 @@ const slide =() =>{
     }
   }
 };
-
+// left btn click
 const handleSlide = () =>{
   const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
   if(currentSlide){

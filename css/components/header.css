@@ -17,6 +17,7 @@
 
 .header-column {
   display: flex;
+  align-items: center;
   width: 33.3%;
 }
 
@@ -34,10 +35,10 @@
 .header__icon {
   font-size: 2.6rem;
 }
-
 .header-column .user {
-  margin-left: 2rem;
+  display: none;
 }
+
 
 .header__icon:hover {
   color: white;
@@ -83,6 +84,12 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+@media (min-width: 768px) and (max-width: 860px) {
+  .header__title{
+    font-size: 2.3rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     display: flex;
@@ -98,7 +105,10 @@
     width: 33.333%;
     left: 33.333%;
   }
-
+  .header-column .user {
+    display: block;
+    margin-left: 2rem;
+  }
   .signInUp input {
     visibility: hidden;
   }

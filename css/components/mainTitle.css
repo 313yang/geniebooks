@@ -17,6 +17,11 @@
 .main-title .title__column i {
     font-size: 1.6rem;
     color: var(--main-sub-black);
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+.main-title .title__column i:hover {
+    color: slateblue;
 }
 @media (max-width: 768px){
     .main-title{

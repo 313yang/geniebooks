@@ -25,6 +25,11 @@
   cursor: pointer;
   font-size: 2rem;
   z-index: 3;
+  transition: color .2s ease-in-out;
+
+}
+.sliderBtn:hover{
+  color: whitesmoke;
 }
 .js-rightBtn {
   right: 0;
