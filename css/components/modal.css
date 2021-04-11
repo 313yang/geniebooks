@@ -62,9 +62,7 @@
   font-size: 1.4rem;
   font-weight: 600;
 }
-.modal__content input:not([type="submit"]):first-child {
-  margin-bottom: 1rem;
-}
+
 .modal__content input[type="submit"] {
   width: 18rem;
   height: 2.5rem;

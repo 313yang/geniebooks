@@ -4,6 +4,7 @@
 @import "components/mainTitle.css";
 @import "components/footer.css";
 @import "components/modal.css";
+@import "components/slideBar.css";
 
 /*  Screens  */
 @import "screens/mainBanner.css";
@@ -44,6 +45,11 @@ section {
 }
 input {
   font-family: "Nanum Gothic", sans-serif;
+}
+a {
+  all: unset;
+  color: inherit;
+  cursor: pointer;
 }
 .mainBanner {
   width: 100%;
