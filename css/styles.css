@@ -1,18 +1,18 @@
 /*  Components  */
-@import "./css/components/header.css";
-@import "./css/components/bookContents.css";
-@import "./css/components/mainTitle.css";
-@import "./css/components/footer.css";
+@import "components/header.css";
+@import "components/bookContents.css";
+@import "components/mainTitle.css";
+@import "components/footer.css";
+@import "components/modal.css";
 
 /*  Screens  */
-@import "./css/screens/mainBanner.css";
-@import "./css/screens/today.css";
-@import "./css/screens/weekly.css";
-@import "./css/screens/saying.css";
+@import "screens/mainBanner.css";
+@import "screens/today.css";
+@import "screens/weekly.css";
+@import "screens/saying.css";
 
 @import "reset.css";
 @import "variables.css";
-
 
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
 
@@ -26,32 +26,34 @@ body {
   height: 100%;
   font-size: 62.5%;
   color: var(--main-title-black);
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
-img{
-  width:16.8rem; 
+img {
+  width: 16.8rem;
   height: 24rem;
   object-fit: fill;
   box-shadow: var(--box-shadow);
   border: 1px solid #4646461c;
 }
-section{
+section {
   width: 95%;
   max-width: 128rem;
   margin-right: auto;
   margin-left: auto;
 }
-.mainBanner{
+input {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.mainBanner {
   width: 100%;
 }
 
-
 @media (min-width: 769px) and (max-width: 1024px) {
- .today__column img{
+  .today__column img {
     height: 18rem;
   }
-  .today__column:first-child{
+  .today__column:first-child {
     display: block;
     align-items: flex-end;
   }

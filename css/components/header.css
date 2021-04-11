@@ -1,7 +1,6 @@
 .header {
-  font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
-  padding: 2rem 10rem;
+  padding: 2rem 5%;
   background-color: slateblue;
 }
 
@@ -11,8 +10,7 @@
   align-items: center;
   width: 100%;
   max-width: 128rem;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 .header-column {
@@ -26,6 +24,7 @@
 }
 
 .header__title {
+  font-family: "Nanum Myeongjo", serif;
   font-size: 2.6rem;
   font-weight: 800;
   width: 90%;
@@ -39,23 +38,23 @@
   display: none;
 }
 
-
 .header__icon:hover {
   color: white;
   transition: color 0.2s ease-in-out;
   cursor: pointer;
 }
 
-.signInUp input {
+.signInUp button {
+  font-size: 1.2rem;
   height: 2.6rem;
-  padding: 0 .8rem;
-  border-radius: .4rem;
+  padding: 0 0.8rem;
+  border-radius: 0.4rem;
   border: none;
   background-color: white;
   cursor: pointer;
 }
 
-.signInUp input[value="로그인"] {
+.signInUp #sign_in {
   padding: 0 1rem;
   margin-left: 1rem;
   background-color: var(--main-title-black);
@@ -79,15 +78,9 @@
   position: absolute;
   font-size: 1.4rem;
   right: 2rem;
-  top: .8rem;
+  top: 0.8rem;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.5);
-}
-
-@media (min-width: 768px) and (max-width: 860px) {
-  .header__title{
-    font-size: 2.3rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -99,8 +92,9 @@
     width: 100%;
     z-index: 2;
   }
-  
+
   .header__title {
+    font-size: 2.4rem;
     position: absolute;
     width: 33.333%;
     left: 33.333%;
@@ -109,7 +103,7 @@
     display: block;
     margin-left: 2rem;
   }
-  .signInUp input {
+  .signInUp button {
     visibility: hidden;
   }
 
@@ -122,7 +116,7 @@
 
   .search-bar i {
     position: absolute;
-    top: .8rem;
-    right: 5%; 
+    top: 0.8rem;
+    right: 5%;
   }
 }
