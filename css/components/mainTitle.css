@@ -1,37 +1,41 @@
 .main-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid slateblue;
-    margin-top: 4.4rem;
-    margin-bottom: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid slateblue;
+  margin-top: 4.4rem;
+  margin-bottom: 2.3rem;
 }
-.main-title .title__column{
-    margin-bottom: 1.5rem;
+.main-title .title__column {
+  margin-bottom: 1.5rem;
 }
 .main-title .title__column .title {
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 800;
-    font-size: 2.6rem;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  font-size: 2.6rem;
 }
 .main-title .title__column i {
-    font-size: 1.6rem;
-    color: var(--main-sub-black);
-    cursor: pointer;
-    transition: color .2s ease-in-out;
+  font-size: 1.6rem;
+  color: var(--main-sub-black);
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
 }
 .main-title .title__column i:hover {
-    color: slateblue;
+  color: slateblue;
 }
-@media (max-width: 768px){
-    .main-title{
-        position: relative;
-        left: -2.5%;
-        width: 105%;
-        align-items: center;
-        padding: 0 2.5rem;
-    }
-    .book-list {
-        width: 100%;
-    }
+@media (max-width: 768px) {
+  .book-list {
+    width: 100%;
+  }
+  .main-title .title__column .title {
+    font-size: 1.8rem;
+  }
+  .main-title {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 375px) {
+  .main-title .title__column i {
+    font-size: 1.2rem;
+  }
 }

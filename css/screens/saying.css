@@ -36,12 +36,38 @@
   color: var(--main-sub-black);
 }
 .saying-box .saying-quote:first-child {
-  right: 14rem;
+  right: 40%;
 }
 .saying-box .saying-quote:last-child {
-  left: 13rem;
+  left: 40%;
 }
 .saying-content h6 {
   font-size: 1.4rem;
   color: var(--main-sub-black);
+}
+@media (max-width: 768px) {
+  .saying-content h5 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .saying-content {
+    height: 25rem;
+  }
+  .saying-content h6 {
+    font-size: 1.2rem;
+  }
+  .saying-box {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 375px) {
+  .saying-box {
+    width: 80%;
+    height: 50%;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+  }
 }
