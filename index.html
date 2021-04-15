@@ -7,7 +7,10 @@
       content="지니의 서재에서 다양한 책을 만나보세요💜"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="#" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/313yang/geniesLabrary/main/img/%F0%9F%92%9CGeinesLabrary.PNG"
+    />
     <meta
       property="og:url"
       content="https://313yang.github.io/geniesLabrary/"
@@ -21,8 +24,8 @@
       content="지니의 서재에서 다양한 책을 만나보세요💜"
     />
     <title>Genie's library</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico?" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -47,6 +50,32 @@
           </div>
         </div>
       </div>
+      <div class="signInModal hidden">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+          <div class="modal__content__colunm">
+            <h4>로그인</h4>
+            <button><i class="fas fa-times"></i></button>
+          </div>
+          <form action="#">
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="비밀번호" />
+            <input type="submit" value="로그인" />
+            <p>또는</p>
+            <div class="social-signIn">
+              <div class="social-icon">
+                <i class="fas fa-comment"></i>
+              </div>
+              <div class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="social-icon">
+                <i class="fab fa-google"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </header>
     <nav class="sideMenu">
       <ul class="sideMenu__list">
@@ -61,32 +90,6 @@
         <li><a href="#">과학</a></li>
       </ul>
     </nav>
-    <div class="signInModal hidden">
-      <div class="modal__overlay"></div>
-      <div class="modal__content">
-        <div class="modal__content__colunm">
-          <h4>로그인</h4>
-          <button><i class="fas fa-times"></i></button>
-        </div>
-        <form action="#">
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="비밀번호" />
-          <input type="submit" value="로그인" />
-          <p>또는</p>
-          <div class="social-signIn">
-            <div class="social-icon">
-              <i class="fas fa-comment"></i>
-            </div>
-            <div class="social-icon">
-              <i class="fab fa-facebook-f"></i>
-            </div>
-            <div class="social-icon">
-              <i class="fab fa-google"></i>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
     <div class="signUpModal hidden">
       <div class="modal__overlay"></div>
       <div class="modal__content">

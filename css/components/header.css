@@ -93,32 +93,44 @@
     position: relative;
     padding: 2rem 5.5rem 3rem;
     width: 100%;
+    padding: 2rem 5%;
   }
 
   .header__title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     position: absolute;
-    width: 33.333%;
-    left: 33.333%;
+    width: 80%;
+    left: 10%;
+  }
+  .header__icon {
+    font-size: 1.8rem;
   }
   .header-column .user {
     display: block;
     margin-left: 2rem;
   }
+
   .signInUp button {
     visibility: hidden;
   }
 
   .search-bar {
     position: absolute;
-    top: 6rem;
+    top: 5.5rem;
     width: 70%;
     left: 15%;
   }
-
   .search-bar i {
     position: absolute;
     top: 0.8rem;
     right: 5%;
+  }
+  .search-bar i {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .search-bar input {
+    font-size: 1.2rem;
   }
 }

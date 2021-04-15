@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: center;
 }
-.main-screen .mainBanner{
+.main-screen .mainBanner {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.main-screen .mainBanner .main__slider{
+.main-screen .mainBanner .main__slider {
   width: 100%;
   max-width: 118rem;
   margin-right: auto;
@@ -25,10 +25,9 @@
   cursor: pointer;
   font-size: 2rem;
   z-index: 3;
-  transition: color .2s ease-in-out;
-
+  transition: color 0.2s ease-in-out;
 }
-.sliderBtn:hover{
+.sliderBtn:hover {
   color: whitesmoke;
 }
 .js-rightBtn {
@@ -40,9 +39,9 @@
   top: 0;
   z-index: 0;
   opacity: 0;
-  transition: opacity .5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
-.slider__item img{
+.slider__item img {
   height: 35.5rem;
   width: 100%;
   max-width: 118rem;
@@ -57,9 +56,22 @@
 
 @media (max-width: 1280px) {
   .js-rightBtn {
-    right: 2rem;
+    right: 1rem;
   }
-  .js-leftBtn{
-    left: 2rem;
+  .js-leftBtn {
+    left: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .slider__item img {
+    height: 22rem;
+  }
+
+  .main-screen .mainBanner .main__slider {
+    height: 25rem;
+  }
+  .sliderBtn {
+    top: 13rem;
+    font-size: 1.4rem;
   }
 }
