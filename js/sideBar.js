@@ -1,7 +1,8 @@
-const slideBtn = document.querySelector(".header__icon");
+const slideBtn = document.querySelector(".fa-stream");
 const sideMenu = document.querySelector(".sideMenu");
 
 const handleSliding = () => {
+  slideBtn.classList.toggle("fa-times");
   sideMenu.classList.remove("hidden");
   sideMenu.classList.toggle("slidingMenu");
 };
