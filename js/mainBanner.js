@@ -6,36 +6,31 @@ const rightBtn = document.querySelector(".js-rightBtn");
 const SHOWING_CLASS = "showing";
 
 //right btn click
-const slide =() =>{
+const slide = () => {
   const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
-  if(currentSlide){
+  if (currentSlide) {
     currentSlide.classList.remove(SHOWING_CLASS);
     const nextSlide = currentSlide.nextElementSibling;
-    if(nextSlide){
+    if (nextSlide) {
       nextSlide.classList.add(SHOWING_CLASS);
-    } else{
+    } else {
       firstSlide.classList.add(SHOWING_CLASS);
     }
   }
 };
 // left btn click
-const handleSlide = () =>{
+const handleSlide = () => {
   const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
-  if(currentSlide){
+  if (currentSlide) {
     currentSlide.classList.remove(SHOWING_CLASS);
     const prevSlide = currentSlide.previousElementSibling;
-    if(prevSlide){
+    if (prevSlide) {
       prevSlide.classList.add(SHOWING_CLASS);
-    } else{
+    } else {
       lastSlide.classList.add(SHOWING_CLASS);
     }
   }
-
 };
-
-function init(){
-  rightBtn.addEventListener("click", slide);
-  leftBtn.addEventListener("click", handleSlide);
-  setInterval(slide, 5000);
-};
-init();
+rightBtn.addEventListener("click", slide);
+leftBtn.addEventListener("click", handleSlide);
+setInterval(slide, 5000);
