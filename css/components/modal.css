@@ -33,19 +33,27 @@
 }
 .modal__content__colunm {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 2rem 3rem;
   border-bottom: 1px solid slateblue;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
 }
 .signUpModal .modal__content__colunm {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .modal__content h4 {
   text-align: left;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 600;
+}
+
+.modal__content__colunm button {
+  background-color: transparent;
+  font-size: 2.2rem;
+  color: var(--main-sub-black);
+  cursor: pointer;
 }
 .modal__content form {
   display: flex;
@@ -65,7 +73,7 @@
 
 .modal__content input[type="submit"] {
   width: 18rem;
-  height: 2.5rem;
+  height: 3rem;
   border: none;
   border-radius: 3px;
   background-color: slateblue;
@@ -74,12 +82,7 @@
   margin-bottom: 1.5rem;
   cursor: pointer;
 }
-.modal__content__colunm button {
-  background-color: transparent;
-  font-size: 1.4rem;
-  color: var(--main-sub-black);
-  cursor: pointer;
-}
+
 .modal__content p {
   color: var(--main-sub-black);
 }

@@ -3,14 +3,15 @@
 @import "components/bookContents.css";
 @import "components/mainTitle.css";
 @import "components/footer.css";
-@import "components/modal.css";
 @import "components/slideBar.css";
+@import "components/modal.css";
 
 /*  Screens  */
 @import "screens/mainBanner.css";
 @import "screens/today.css";
 @import "screens/weekly.css";
 @import "screens/saying.css";
+@import "screens/notice.css";
 
 @import "reset.css";
 @import "variables.css";
@@ -52,9 +53,6 @@ a {
   all: unset;
   color: inherit;
   cursor: pointer;
-}
-.mainBanner {
-  width: 100%;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

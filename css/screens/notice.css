@@ -1,0 +1,17 @@
+.notice {
+  height: 19px;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--main-sub-black);
+  overflow: hidden;
+}
+.notice__column:first-child {
+  margin-right: 1rem;
+}
+.notice__column:last-child {
+  height: 100%;
+}
+.notice__column:last-child p {
+  padding: 0.3rem;
+}
